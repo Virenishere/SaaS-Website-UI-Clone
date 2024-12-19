@@ -1,6 +1,6 @@
 import React from "react";
 import heliximg from "../../assets/helix.png";
-import emojistarimg from "../../assets/emojistar.png";
+import chartimg from "../../assets/emojistar.png";
 
 const GetAccess = () => {
   return (
