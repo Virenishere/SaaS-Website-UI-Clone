@@ -41,11 +41,11 @@ const Hero = () => {
       </div>
 
       {/* icons */}
-      <div className="absolute top-16 left-16 animate-float">
-        <img src={cursorimg} alt="Cursor Icon" className="w-16 h-16" />
+      <div className="absolute top-80 left-64 animate-float">
+        <img src={cursorimg} alt="Cursor Icon" />
       </div>
-      <div className="absolute top-20 right-16 animate-float delay-150">
-        <img src={messageimg} alt="Message Icon" className="w-20 h-20" />
+      <div className="absolute top-64 right-56 animate-float delay-150">
+        <img src={messageimg} alt="Message Icon" />
       </div>
     </div>
   );
