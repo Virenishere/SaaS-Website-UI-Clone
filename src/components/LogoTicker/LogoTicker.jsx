@@ -9,7 +9,7 @@ import ticker6 from "../../assets/ticker6.png";
 const LogoTicker = () => {
   return (
     <div className="flex flex-col w-full h-[266px] sm:h-[266px] md:h-[150px] lg:h-[150px] xl:h-[150px] 2xl:h-[150px] bg-[#030303] text-[#808080]">
-      <p className="text-xs sm:text-sm mt-5 text-center">
+      <p className="text-sm sm:text-sm mt-5 text-center">
         Trusted by the world’s most innovative teams
       </p>
 
