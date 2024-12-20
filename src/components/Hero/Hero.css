@@ -1,0 +1,97 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  z-index: -20;
+}
+
+.radial {
+  position: absolute;
+  z-index: 1;
+  background: radial-gradient(
+    ellipse,
+    rgba(0, 0, 0, 1) 82%,
+    rgba(149, 96, 235, 1) 100%
+  );
+  border: 1px solid #b48cdeff;
+  height: 90%;
+  width: 120%;
+  border-radius: 40%;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  pointer-events: none;
+  box-shadow: inset 0 0 30px 30px #744ab5,
+    inset 0 0 50px 20px rgba(116, 74, 181, 0.5);
+  clip-path: ellipse(150% 50% at 50% 10%);
+}
+
+@media (max-width: 500px) {
+  .radial {
+    width: 130%;
+    border-radius: 40%;
+  }
+}
+
+.midtext {
+  z-index: 1;
+  font-family: DM Sans;
+  color: #fff;
+  font-size: 10rem;
+  line-height: 105px;
+  letter-spacing: -5.38px;
+  font-weight: bold;
+}
+
+.paratext {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .midtext {
+    font-size: 4rem;
+    line-height: 45px;
+    letter-spacing: -4.38px;
+  }
+
+  .paratext {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .midtext {
+    font-size: 3.5rem;
+    line-height: 40px;
+    letter-spacing: -4px;
+  }
+
+  .paratext {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .midtext {
+    font-size: 3rem;
+    line-height: 35px;
+    letter-spacing: -3.38px;
+  }
+
+  .paratext {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .midtext {
+    font-size: 2.5rem;
+    line-height: 30px;
+    letter-spacing: -2.88px;
+  }
+
+  .paratext {
+    font-size: 10px;
+  }
+}

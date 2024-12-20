@@ -6,10 +6,12 @@ import LogoTicker from "../components/LogoTicker/LogoTicker";
 import MidPageTwo from "../components/MidPageTwo/MidPageTwo";
 import FAQ from "../components/FAQ/FAQ";
 import GetAccess from "../components/GetAcess/GetAcess";
+import Test from "./Test";
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen">
+      
       <Hero />
       <LogoTicker />
       <MidPageOne />
