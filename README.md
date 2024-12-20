@@ -16,10 +16,11 @@ This project is a clone of the **SaaS Website UI Kit — Framer Website Kit (Com
 - **Hosting Platform**: Netlify
 
 ## Live Preview
-[https://virenisheresaascloneui.netlify.app/]
+<a href="https://virenisheresaascloneui.netlify.app/" target="_blank">https://virenisheresaascloneui.netlify.app/</a>
 
 ### Original UI Kit
-[https://www.framer.com/free-saas-ui-kit/]
+<a href="https://www.framer.com/free-saas-ui-kit/" target="_blank">https://www.framer.com/free-saas-ui-kit/</a>
+
 
 ## Getting Started
 
