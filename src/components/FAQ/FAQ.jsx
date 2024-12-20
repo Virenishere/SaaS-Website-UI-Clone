@@ -61,7 +61,6 @@ const FAQ = () => {
   );
 };
 
-
 const PlusIcon = () => (
   <span className="w-6 h-6">
     <svg

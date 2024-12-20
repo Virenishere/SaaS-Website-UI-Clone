@@ -1,0 +1,38 @@
+.maindiv {
+  position: relative;
+  overflow: hidden;
+}
+
+.charticon,
+.helixicon {
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .charticon {
+    top: 2%;
+    left: -12%;
+
+    display: block;
+  }
+
+  .helixicon {
+    bottom: -3%;
+    right: -10%;
+    display: block;
+  }
+
+  .helixicon img {
+    height: 150px;
+  }
+  .charticon img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 640px) {
+  .charticon,
+  .helixicon {
+    display: none;
+  }
+}
